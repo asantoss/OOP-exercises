@@ -98,7 +98,7 @@ function createDeck() {
             for (var j = 1; j < 14; j++) {
                 var cardPoints = j;
                 var newCard = new Card(cardPoints, currentSuit);
-                deck.push(newCard);
+                deck = __spreadArrays(deck, [newCard]);
             }
         }
     };

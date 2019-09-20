@@ -1,0 +1,13 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "allowUnreachableCode": false,
+        "strictNullChecks": true,
+        "outFile": "./App.js",
+        "sourceMap": true,
+        "target": "esNext"
+    }
+}
